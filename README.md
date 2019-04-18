@@ -2,35 +2,16 @@
 
 This project uses the [Tech Docs Template][template], which is a [Middleman template][mmt] that you can use to build technical documentation using a GOV.UK style.
 
-You’re welcome to use the template even if your service isn’t considered part of GOV.UK, but your site or service must not:
-
-- identify itself as being part of GOV.UK
-- use the crown or GOV.UK logotype in the header
-- use the GDS Transport typeface
-- suggest that it’s an official UK government website if it’s not
-
-👉 To find out more about setting up and managing content for a website using this template, see the [Tech Docs Template documentation][tdt-docs].
-
 ## Before you start
 
-To use the Tech Docs Template you need:
+To build the Ethnicity facts and figures tech docs locally, you need:
 
 - [Ruby][install-ruby]
 - [Middleman][install-middleman]
 
 ## Making changes
 
-To make changes to the documentation for the Tech Docs Template website, edit files in the `source` folder of this repository.
-
-You can add content by editing the `.html.md.erb` files. These files support content in:
-
-- Markdown
-- HTML
-- Ruby
-
-👉 You can use Markdown and HTML to [generate different content types][example-content] and [Ruby partials to manage content][partials].
-
-👉 Learn more about [producing more complex page structures][multipage] for your website.
+To make changes to the documentation, edit files in the `source` folder of this repository. We use the [basic multiple structure][basic-multipage]. Each page is declared in the top level of the `source` folder with a single heading. All other content is then included, via [Ruby partials][partials], through markdown files in sub-directories.
 
 ## Preview your changes locally
 
@@ -40,7 +21,7 @@ To preview your new website locally, navigate to your project folder and run:
 bundle exec middleman server
 ```
 
-👉 See the generated website on `http://localhost:4567` in your browser. Any content changes you make to your website will be updated in real time.
+See the generated website on `http://localhost:4567` in your browser. Any content changes you make to your website will be updated in real time.
 
 To shut down the Middleman instance running on your machine, use `ctrl+C`.
 
@@ -50,11 +31,14 @@ If you make changes to the `config/tech-docs.yml` configuration file, you need t
 
 To build the HTML pages from content in your `source` folder, run:
 
-```
-bundle exec middleman build`
+```sh
+bundle exec middleman build
 ```
 
 Every time you run this command, the `build` folder gets generated from scratch. This means any changes to the `build` folder that are not part of the build command will get overwritten.
+
+## Deployment
+This manual gets automatically deployed to Heroku when changes are merged into the `master` branch.
 
 ## Troubleshooting
 
@@ -73,11 +57,8 @@ The documentation is [© Crown copyright][copyright] and available under the ter
 [copyright]: http://www.nationalarchives.gov.uk/information-management/re-using-public-sector-information/uk-government-licensing-framework/crown-copyright/
 [ogl]: http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/
 [mmt]: https://middlemanapp.com/advanced/project_templates/
-[tdt-docs]: https://tdt-documentation.london.cloudapps.digital
 [config]: https://tdt-documentation.london.cloudapps.digital/configuration-options.html#configuration-options
-[frontmatter]: https://tdt-documentation.london.cloudapps.digital/frontmatter.html#frontmatter
-[multipage]: https://tdt-documentation.london.cloudapps.digital/multipage.html#build-a-multipage-site
-[example-content]: https://tdt-documentation.london.cloudapps.digital/content.html#content-examples
+[basic-multipage]: https://tdt-documentation.london.cloudapps.digital/multipage.html#basic-multipage
 [partials]: https://tdt-documentation.london.cloudapps.digital/single_page.html#add-partial-lines
 [install-ruby]: https://tdt-documentation.london.cloudapps.digital/install_macs.html#install-ruby
 [install-middleman]: https://tdt-documentation.london.cloudapps.digital/install_macs.html#install-middleman
