@@ -1,0 +1,22 @@
+{
+  "name": "ethnicity-facts-and-figures-tech-docs",
+  "description": "",
+  "scripts": {},
+  "env": {},
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-static"
+    }
+  ],
+  "stack": "heroku-18"
+}
+
