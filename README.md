@@ -6,7 +6,7 @@ This project uses the [Tech Docs Template][template], which is a [Middleman temp
 
 To build the Ethnicity facts and figures tech docs locally, you need:
 
-- [Ruby][install-ruby]
+- [Ruby][install-ruby] **version `2.5.3p105`** 
 - [Middleman][install-middleman]
 
 ## Making changes
