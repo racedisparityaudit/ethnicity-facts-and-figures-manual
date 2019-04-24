@@ -3,7 +3,9 @@ We have an MVP system for implementing redirects on the static site. A database 
 Example:
 With a redirect is in place from `british-population` to `uk-population-by-ethnicity`, the following original browser request will be redirected to this updated URL:
  
-* original: `https://www.ethnicity-facts-figures.service.gov.uk/british-population/national-and-regional-populations/regional-ethnic-diversity/latest`
-* redirected: `https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest` 
+* original:  
+  `https://www.ethnicity-facts-figures.service.gov.uk/british-population/national-and-regional-populations/regional-ethnic-diversity/latest`
+* redirected:  
+  `https://www.ethnicity-facts-figures.service.gov.uk/uk-population-by-ethnicity/national-and-regional-populations/regional-ethnic-diversity/latest` 
 
 The runbook contains guidance on how to [create a redirect](runbook.html#creating-a-redirect).
