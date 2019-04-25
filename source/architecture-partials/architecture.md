@@ -6,9 +6,9 @@
 ## The Ethnicity Facts and Figures website
 
 The public-facing [Ethnicity Facts and Figures site](https://www.ethnicity-facts-figures.service.gov.uk/) is a set of 
-static pages in an S3 bucket which are served through a Cloudfront distribution.  The staging static site is set up in 
-the same way, but with an additional AWS Lambda function to provide basic auth (this is intended to prevent indexing by 
-search engines).
+static pages in an S3 bucket (actually two S3 buckets - a primary one in London and secondary mirror in Ireland) which 
+are served through a Cloudfront distribution.  The staging static site is set up in the same way, but with an additional
+AWS Lambda function to provide basic auth (this is intended to prevent indexing by search engines).
 
 The [style guide](https://guide.ethnicity-facts-figures.service.gov.uk/) is a [GitHub Pages](https://pages.github.com/)
 site that is set up to serve from the same domain.
