@@ -1,7 +1,7 @@
 ## Architecture diagram
 ![alt text](/images/eff-architecture.svg "High-level architecture of the Ethnicity Facts and Figures website and Publisher showing the relationships between components in AWS, Heroku and Github.")
 
-([View/edit source file](https://docs.google.com/presentation/d/1lbRGSTxkQN9C7blpIPZq0dhgOrgrEVeKU5DJiJp_HQw/edit))
+[View/edit source file for architecture diagram](https://docs.google.com/presentation/d/1lbRGSTxkQN9C7blpIPZq0dhgOrgrEVeKU5DJiJp_HQw/edit)
 
 ## The Ethnicity Facts and Figures website
 
@@ -24,7 +24,7 @@ The Publisher app is hosted on Heroku and released through a three-stage pipelin
 
 1. **Review app** When a pull request is opened on the Publisher in GitHub the tests are run and a review app is created
    in Heroku.
-   Review apps get a database copied from the Staging database, but with a reduced number of topics and measure pages
+   Review apps get a database copied from the Staging database, but with at most two measure pages per subtopic
    (review app databases are currently limited by Heroku to 10,000 rows, so we can't use a full copy).
 
 2. **Staging** When a pull request is merged into the `master` branch the tests are run again and the latest `master`
