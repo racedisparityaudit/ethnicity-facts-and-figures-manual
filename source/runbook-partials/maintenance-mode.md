@@ -13,7 +13,7 @@
 3. Go into the settings of the distribution you want to put into maintenance mode (e.g. `Staging www site` or `Prod www site`)
 4. Go to the `Behaviours` tab and create a new behaviour
 5. Enter `*` as the path pattern, select `s3-error-pages` as the Origin, set Object Caching to `custom` and change the Minimum/Maximum/Default TTL to a low value (e.g. `5` seconds), then click `Create`
-6. Go to the `Error Pages` tab and update the `404` entry: make a note of the current `Error Caching Minimum TTL` and `Response Page Path`, and then set them to `5` and `/service_unavailable.html` respectively
+6. Go to the `Error Pages` tab and update the `403` entry: make a note of the current `Error Caching Minimum TTL` and `Response Page Path`, and then set them to `5` and `/service_unavailable.html` respectively
 7. Create a new invalidation with the path `/*` to purge all cached pages from CloudFront
 8. Once the invalidation has completed, CloudFront will serve only the maintenance page for all requests
 
