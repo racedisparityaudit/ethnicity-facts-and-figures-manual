@@ -1,6 +1,8 @@
 ## Architecture diagram
 ![alt text](/images/eff-architecture.svg "High-level architecture of the Ethnicity Facts and Figures website and Publisher showing the relationships between components in AWS, Heroku and Github.")
 
+([View/edit source file](https://docs.google.com/presentation/d/1lbRGSTxkQN9C7blpIPZq0dhgOrgrEVeKU5DJiJp_HQw/edit))
+
 ## The Ethnicity Facts and Figures website
 
 The public-facing [Ethnicity Facts and Figures site](https://www.ethnicity-facts-figures.service.gov.uk/) is a set of 
