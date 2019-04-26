@@ -1,0 +1,99 @@
+## Data model diagram
+This diagram was correct as of 27th February 2018, and is already slightly out of date. It should be useful to see the 
+overall structure of things though. 
+ 
+ You can click the image to open it bigger.
+![alt text](/images/eff-data-model-2019-02-27.svg "Data model of the Ethnicity Facts and Figures Publisher, as of 27th February 2019.")
+
+[View source file for data model diagram](https://drive.google.com/file/d/1atJKUx9wbMmeOOCkgdjt9WmnCGOE9r5B/view)
+
+## Site structure
+The Ethnicity Facts and Figures website is organised as a hierarchy (tree) in four levels:
+
+**Level 1: Home page**
+ 
+The home page has a template in the Publisher app, but is not modelled explicitly by any record in the database.  
+It is the conceptual root of the site hierarchy, and is the parent of all *Topics*.
+
+**Level 2: Topics**
+
+Topics are the highest level grouping of pages on the site, and are listed on the home page as links. They live in the 
+`topic` table in the database. Clicking a topic link from the homepage takes you to the topic page, which lists all
+*Subtopics* that belong to the topic.
+
+**Level 3: Subtopics**
+
+Subtopics live in the `subtopic` table of the database, and belong to exactly one topic, defined by the `topic_id`
+field. Each subtopic belonging to a topic has an accordion section on the topic page, which can be opened to reveal the
+*Measures* that belong to the subtopic.
+
+**Level 4: Measures and their versions**
+
+Measures are the individual leaf nodes of the site hierarchy and live in the `measure` table of the database. Measures 
+can have multiple versions, and so the majority of data for displaying measure pages lives in the `measure_version`
+table, with only minimal data applicable to all versions of a measure in the `measure` table itself.
+
+The database structure allows for measures to belong to multiple subtopics (via the join table `subtopic_measure`), but
+there is no user interface to allow this to happen and in practice all measures belong to one subtopic only.
+
+Measure versions are really the main feature of our data model. They are the things that are edited by users of the 
+Publisher, and the thing that become the main content of the website - the pages of commentary, data, tables and charts.
+
+Measure versions have zero or more dimensions (stored in the `dimension` table). In practice all measure versions have 
+at least one dimension.
+
+**Dimensions**
+Dimensions show a particular cut of the data being presented in the measure, and are displayed one after another on our
+measure pages. All dimensions that are published have to include a table (although this isn't enforced in the database 
+or by the application code), and optionally can also have a chart.
+
+These charts and tables are stored in the `dimension_chart` and `dimension_table` tables (named as such because `table`
+is a reserved word in SQL). These tables have a similar structure to one another. They each store information about the
+ethnicity `classification` used by the chart or table, as well as whether the data includes aggregate figures for all, 
+parent ethnicities and unknown ethnicity. They also have a `settings_and_source_data` JSON field, which stores the
+form data from the chartbuilder or tablebuilder used to create the object, and then the `chart_object` or `table_object`
+itself, which is the thing displayed on the measure page (for charts this is a Highcharts object; for tables it is our
+JSON format that our page templates know how to render).
+
+**Classifications**
+Entries in the `classification` table represent the various different sets of ethnicites used by the datasets we collect
+and publish. We currently store classifications for each new chart and table that is saved, and these chart and table
+classifications are used to assign a classification to the dimension itself. These dimension-level classifcations are
+stored in the `dimension_categorisation` table (this table is not shown in the diagram above).  This is a "legacy" table
+that should at some point be removed: dimension-level classifications used to be manually chosen by users as part of 
+authoring a dimension, but now we have the mechanism in place to derive these from the chart and table on the dimension 
+the `dimension_categorisation` table is superfluous.
+
+**Data sources**
+A measure version can have multiple data sources, but our application code currently only allows two (a primary source
+and secondary source).  A `data_source` is published by an `organisation`, is of a `type_of_statistic` (national, 
+official, non-official or experimental) and has a `frequency_of_release`. 
+
+There are also various other pages in the site that do not sit within this topic hierarchy: 
+
+* The [list of ethnic groups](https://www.ethnicity-facts-figures.service.gov.uk/ethnic-groups)
+* The [privacy policy](https://www.ethnicity-facts-figures.service.gov.uk/privacy-policy)
+* Various [dashboard pages](https://www.ethnicity-facts-figures.service.gov.uk/dashboards)
+
+These are not modelled in the database, they are stand-alone pages in the Publisher app.
+
+## Dashboard pages and materialized views
+The data for many of the dashboard pages comes from a set of [materialized views](https://www.postgresql.org/docs/9.5/rules-materializedviews.html)
+that are refreshed every time a new page is published, and every night. Any data migrations that alter the structure of
+the `measure_version` table will need to drop the materialized views before running and re-create them at the end.
+
+## Users and access control
+We have four types of `users`: DEV, ADMIN, RDU and DEPT.  Each `user_type` is associated with a set of default 
+`capabilities`. The first three types of user can all access all measures on the site, but DEPT (departmental) users
+only have access to measures that have been explicitly shared with them.  The `user_measure` table lists the measures 
+that have been explicitly shared with departmental users.
+
+## Site management
+The `redirect` table contains a list of URLs that have now been moved within the site. See [redirects](redirects.html)] 
+for more about how these work.
+ 
+The `build` table stores information about builds of the static site, and stores information about their status. A new
+build is requested by the build service in the Publisher app by inserting a new row in the `build` table with the status
+`PENDING`.  A scheduled task in Heroku checks for PENDING builds, and if it finds any runs a build of the site.  When 
+the build completes the result of the build is saved (either success or failure), along with the stack trace if any
+error occurred.
