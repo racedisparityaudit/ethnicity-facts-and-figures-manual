@@ -34,6 +34,7 @@ The Publisher app is hosted on Heroku and released through a three-stage pipelin
 
 3. **Production** Promoting code to production is a manual step: use the "Promote to production..." button in the 
    Heroku pipeline.  This will immediately release the master branch code to production, with no further test run.
+   The release of new code triggers an immediate rebuild of the static site.
 
 ## Static site build
 
