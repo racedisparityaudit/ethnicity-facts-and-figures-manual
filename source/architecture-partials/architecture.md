@@ -99,3 +99,20 @@ suspicious requests and reports several key site metrics.
 
 We keep [a record of architecture decisions](https://github.com/racedisparityaudit/ethnicity-facts-and-figures-publisher/tree/master/doc/decisions)
 in the form of Lightweight Architecture Decision Records.
+
+
+## Other AWS services
+### Secrets manager
+We store shared credentials for various accounts in AWS Secrets Manager, including:
+
+* the `rdudevelopers` GitHub account that we use to connect to Heroku and any other service that requires access to
+  our GitHub repositories
+* the `developers` Heroku account
+* any other third party services we use, e.g. NCSC WebCheck and data.gov.uk
+* the shared `developers` AWS WorkMail inbox
+
+### WorkMail
+To initially set up Route53 we had to verify that we own the `ethnicity-facts-figures.service.gov.uk` domain by 
+receiving email sent to an address on the domain. We have AWS WorkMail set up (in the "US East (N. Virginia)" region)
+with the email address `developers@ethnicity-facts-figures.service.gov.uk` set up to forward any email received to
+the development team.
