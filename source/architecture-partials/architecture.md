@@ -93,3 +93,8 @@ by Sentry, which allows issue tracking and captures a detailed stack trace and d
 
 We also have [Sqreen](https://www.sqreen.com/) installed inside Publisher, which monitors activity, blocks some 
 suspicious requests and reports several key site metrics.
+
+## Architecture decision records (ADRs)
+
+We keep [a record of architecture decisions](https://github.com/racedisparityaudit/ethnicity-facts-and-figures-publisher/tree/master/doc/decisions)
+in the form of Lightweight Architecture Decision Records.
