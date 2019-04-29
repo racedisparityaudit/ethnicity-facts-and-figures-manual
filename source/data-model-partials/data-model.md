@@ -1,6 +1,5 @@
 ## Data model diagram
-This diagram was correct as of 27th February 2018, and is already slightly out of date. It should be useful to see the 
-overall structure of things though. 
+This diagram was correct as of 27th February 2018.
  
  You can click the image to open it bigger.
 ![alt text](/images/eff-data-model-2019-02-27.svg "Data model of the Ethnicity Facts and Figures Publisher, as of 27th February 2019.")
@@ -43,7 +42,7 @@ Measure versions have zero or more dimensions (stored in the `dimension` table).
 at least one dimension.
 
 **Dimensions**
-Dimensions show a particular cut of the data being presented in the measure, and are displayed one after another on our
+Dimensions show a particular cut of the data being presented in the measure, and are all displayed as part of our
 measure pages. All dimensions that are published have to include a table (although this isn't enforced in the database 
 or by the application code), and optionally can also have a chart.
 
@@ -58,7 +57,7 @@ JSON format that our page templates know how to render).
 **Classifications**
 Entries in the `classification` table represent the various different sets of ethnicites used by the datasets we collect
 and publish. We currently store classifications for each new chart and table that is saved, and these chart and table
-classifications are used to assign a classification to the dimension itself. These dimension-level classifcations are
+classifications are used to assign a classification to the dimension itself. These dimension-level classifications are
 stored in the `dimension_categorisation` table (this table is not shown in the diagram above).  This is a "legacy" table
 that should at some point be removed: dimension-level classifications used to be manually chosen by users as part of 
 authoring a dimension, but now we have the mechanism in place to derive these from the chart and table on the dimension 
@@ -84,12 +83,13 @@ the `measure_version` table will need to drop the materialized views before runn
 
 ## Users and access control
 We have four types of `users`: DEV, ADMIN, RDU and DEPT.  Each `user_type` is associated with a set of default 
-`capabilities`. The first three types of user can all access all measures on the site, but DEPT (departmental) users
-only have access to measures that have been explicitly shared with them.  The `user_measure` table lists the measures 
-that have been explicitly shared with departmental users.
+`capabilities` (specific capabilities could be added or removed from users if necessary, though there is currently no 
+user interface for this fine-grained capabilities management). The first three types of user can all access all 
+measures on the site by default, but DEPT (departmental) users only have access to measures that have been explicitly 
+shared with them.  The `user_measure` table lists the measures that have been explicitly shared with departmental users.
 
 ## Site management
-The `redirect` table contains a list of URLs that have now been moved within the site. See [redirects](redirects.html)] 
+The `redirect` table contains a list of URLs that have now been moved within the site. See [redirects](redirects.html) 
 for more about how these work.
  
 The `build` table stores information about builds of the static site, and stores information about their status. A new
