@@ -1,0 +1,2063 @@
+<svg height="1008.0" width="1799.0" 
+	xmlns="http://www.w3.org/2000/svg">
+	<desc>{"leftTopX": 4293, "leftTopY": 3902, "rightBottomX": 6092, "rightBottomY": 4870}</desc>
+	<g transform="translate(0.5,0.5)">
+		<g class="area">
+			<g transform="translate(1199.0,21.0)">
+				<rect fill="#6D9EEB" height="351.0" stroke="#000000" stroke-dasharray="5,5" width="580.0"/>
+			</g>
+			<g transform="translate(1214.6519937270405,337.7885891415207)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Dimensions</text>
+			</g>
+		</g>
+		<g class="area">
+			<g transform="translate(23.0,20.0)">
+				<rect fill="#FFD966" height="278.0" stroke="#000000" stroke-dasharray="5,5" width="610.0"/>
+			</g>
+			<g transform="translate(543.79345703125,263.0)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Hierarchy</text>
+			</g>
+		</g>
+		<g class="area">
+			<g transform="translate(1199.0,386.0)">
+				<rect fill="#8E7CC3" height="326.0" stroke="#000000" stroke-dasharray="5,5" width="579.0"/>
+			</g>
+			<g transform="translate(1210.518498717123,683.308713132166)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Classifications</text>
+			</g>
+		</g>
+		<g class="area">
+			<g transform="translate(1200.0,723.0)">
+				<rect fill="#C27BA0" height="223.0" stroke="#000000" stroke-dasharray="5,5" width="578.0"/>
+			</g>
+			<g transform="translate(1214.1790721151342,915.164931278634)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Site management</text>
+			</g>
+		</g>
+		<g class="area">
+			<g transform="translate(20.0,531.0)">
+				<rect fill="#E06666" height="416.0" stroke="#000000" stroke-dasharray="5,5" width="614.0"/>
+			</g>
+			<g transform="translate(519.78857421875,912.0)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Data sources</text>
+			</g>
+		</g>
+		<g class="area">
+			<g transform="translate(20.0,310.0)">
+				<rect fill="#E69138" height="212.0" stroke="#000000" stroke-dasharray="5,5" width="614.0"/>
+			</g>
+			<g transform="translate(572.30322265625,487.0)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Users</text>
+			</g>
+		</g>
+		<g class="area">
+			<g transform="translate(651.0,20.0)">
+				<rect fill="#93C47D" height="928.0" stroke="#000000" stroke-dasharray="5,5" width="535.0"/>
+			</g>
+			<g transform="translate(881.0307624327514,916.7200464585948)">
+				<text fill="#000000" font-family="arial, sans-serif" font-size="15" font-weight="700" x="1.0" y="13.98828125">Measures</text>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1684.0,508.0 1684.0,594.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1684.0" x2="1678.0" y1="555.0" y2="570.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1684.0" x2="1690.0" y1="555.0" y2="570.0"/>
+				<g transform="translate(1684.0,555.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1678.0" x2="1690.0" y1="535.0" y2="535.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1384.0,612.0 1536.0,612.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1507.0" x2="1522.0" y1="612.0" y2="606.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1507.0" x2="1522.0" y1="612.0" y2="618.0"/>
+				<g transform="translate(1507.0,612.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<g transform="translate(1476.0,612.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1533.0,463.0 1431.0,463.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1474.0" x2="1459.0" y1="463.0" y2="457.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1474.0" x2="1459.0" y1="463.0" y2="469.0"/>
+				<g transform="translate(1474.0,463.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1508.0" x2="1508.0" y1="457.0" y2="469.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1350.0,584.0 1350.0,481.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1350.0" x2="1344.0" y1="537.0" y2="522.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1350.0" x2="1356.0" y1="537.0" y2="522.0"/>
+				<g transform="translate(1350.0,537.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1344.0" x2="1356.0" y1="559.0" y2="559.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="521.0,360.0 515.0,360.0 515.0,379.0 48.0,379.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="251.0" x2="236.0" y1="379.0" y2="373.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="251.0" x2="236.0" y1="379.0" y2="385.0"/>
+				<g transform="translate(251.0,379.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="340.0" x2="340.0" y1="373.0" y2="385.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="157.0,629.0 157.0,690.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="157.0" x2="151.0" y1="665.0" y2="680.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="157.0" x2="163.0" y1="665.0" y2="680.0"/>
+				<g transform="translate(157.0,665.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="151.0" x2="163.0" y1="654.0" y2="654.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="307.0,625.0 307.0,756.0 75.0,756.0 75.0,867.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="307.0" x2="301.0" y1="665.0" y2="680.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="307.0" x2="313.0" y1="665.0" y2="680.0"/>
+				<g transform="translate(307.0,665.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="301.0" x2="313.0" y1="666.0" y2="666.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="465.0,614.0 534.0,614.0 534.0,690.0 259.0,690.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="534.0" x2="528.0" y1="665.0" y2="680.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="534.0" x2="540.0" y1="665.0" y2="680.0"/>
+				<g transform="translate(534.0,665.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="528.0" x2="540.0" y1="653.0" y2="653.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="368.0,223.0 674.0,223.0 674.0,266.0 716.0,266.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="266.0" y2="260.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="266.0" y2="272.0"/>
+				<g transform="translate(691.0,266.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="537.0" x2="537.0" y1="217.0" y2="229.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="320.0,84.0 212.0,84.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="238.0" x2="223.0" y1="84.0" y2="78.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="238.0" x2="223.0" y1="84.0" y2="90.0"/>
+				<g transform="translate(238.0,84.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="287.0" x2="287.0" y1="78.0" y2="90.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="765.0,266.0 1163.0,266.0 1163.0,216.0 1236.0,216.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1211.0" x2="1226.0" y1="216.0" y2="210.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1211.0" x2="1226.0" y1="216.0" y2="222.0"/>
+				<g transform="translate(1211.0,216.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1162.0" x2="1162.0" y1="260.0" y2="272.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="762.0,302.0 762.0,124.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="762.0" x2="756.0" y1="186.0" y2="171.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="762.0" x2="768.0" y1="186.0" y2="171.0"/>
+				<g transform="translate(762.0,186.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="756.0" x2="768.0" y1="241.0" y2="241.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1069.0,160.0 1069.0,326.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1069.0" x2="1063.0" y1="241.0" y2="256.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1069.0" x2="1075.0" y1="241.0" y2="256.0"/>
+				<g transform="translate(1069.0,241.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1063.0" x2="1075.0" y1="185.0" y2="185.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="523.0,437.0 974.0,437.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="437.0" y2="431.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="437.0" y2="443.0"/>
+				<g transform="translate(691.0,437.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="585.0" x2="585.0" y1="431.0" y2="443.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="523.0,379.0 994.0,379.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="379.0" y2="373.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="379.0" y2="385.0"/>
+				<g transform="translate(691.0,379.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="585.0" x2="585.0" y1="373.0" y2="385.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="523.0,397.0 1003.0,397.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="397.0" y2="391.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="397.0" y2="403.0"/>
+				<g transform="translate(691.0,397.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="585.0" x2="585.0" y1="391.0" y2="403.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="523.0,417.0 1025.0,417.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="417.0" y2="411.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="417.0" y2="423.0"/>
+				<g transform="translate(691.0,417.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="585.0" x2="585.0" y1="411.0" y2="423.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1442.0,141.0 1551.0,141.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<g transform="translate(1526.0,141.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1467.0" x2="1467.0" y1="135.0" y2="147.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1738.0,427.0 1738.0,171.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1738.0" x2="1732.0" y1="196.0" y2="181.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1738.0" x2="1744.0" y1="196.0" y2="181.0"/>
+				<g transform="translate(1738.0,196.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1732.0" x2="1744.0" y1="402.0" y2="402.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1632.0,429.0 1632.0,308.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="1632.0" x2="1626.0" y1="362.0" y2="347.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="1632.0" x2="1638.0" y1="362.0" y2="347.0"/>
+				<g transform="translate(1632.0,362.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1626.0" x2="1638.0" y1="402.0" y2="402.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="1442.0,237.0 1509.0,237.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<g transform="translate(1484.0,237.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="1467.0" x2="1467.0" y1="231.0" y2="243.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="394.0,262.0 394.0,330.0 138.0,330.0 138.0,357.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="138.0" x2="132.0" y1="332.0" y2="347.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="138.0" x2="144.0" y1="332.0" y2="347.0"/>
+				<g transform="translate(138.0,332.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="388.0" x2="400.0" y1="290.0" y2="290.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="138.0,121.0 138.0,216.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="138.0" x2="132.0" y1="174.0" y2="189.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="138.0" x2="144.0" y1="174.0" y2="189.0"/>
+				<g transform="translate(138.0,174.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="132.0" x2="144.0" y1="157.0" y2="157.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="315.0,219.0 213.0,219.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="238.0" x2="223.0" y1="219.0" y2="213.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="238.0" x2="223.0" y1="219.0" y2="225.0"/>
+				<g transform="translate(238.0,219.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="290.0" x2="290.0" y1="213.0" y2="225.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="931.0,674.0 931.0,838.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="931.0" x2="925.0" y1="807.0" y2="822.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="931.0" x2="937.0" y1="807.0" y2="822.0"/>
+				<g transform="translate(931.0,807.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="925.0" x2="937.0" y1="754.0" y2="754.0"/>
+			</g>
+		</g>
+		<g class="reference">
+			<polyline fill="none" points="576.0,857.0 775.0,857.0" stroke="#000000" stroke-linejoin="miter"/>
+			<g class="cardinality">
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="857.0" y2="851.0"/>
+				<line stroke="#000000" stroke-width="1.0" x1="691.0" x2="706.0" y1="857.0" y2="863.0"/>
+				<g transform="translate(691.0,857.0)">
+					<circle fill="white" r="3.5" stroke="#000000" stroke-width="1.0"/>
+				</g>
+			</g>
+			<g class="mandatory">
+				<line stroke="#000000" stroke-width="1.0" x1="601.0" x2="601.0" y1="851.0" y2="863.0"/>
+			</g>
+		</g>
+		<g class="table" transform="translate(1244.0,418.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="215.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="108.5" y="14.190625">ethnicity_in_classification</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="84.0" width="215.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">ethnicity_id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">classification_id</text>
+					</g>
+				</g>
+				<g transform="translate(176.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(196.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 215.0,0.0 215.0,20.0 0.0,20.0 0.0,104.0 215.0,104.0 215.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1500.0,778.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="242.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="122.0" y="14.190625">build</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="96.0" width="242.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">status</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">created_at</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">completed_at</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">failure_reason</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">failed_at</text>
+					</g>
+				</g>
+				<g transform="translate(106.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">uuid</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">build_status_enum</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+				</g>
+				<g transform="translate(222.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 242.0,0.0 242.0,20.0 0.0,20.0 0.0,116.0 242.0,116.0 242.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1523.0,417.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="229.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="115.5" y="14.190625">classification</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="83.0" width="229.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">subfamily</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">long_title</text>
+					</g>
+				</g>
+				<g transform="translate(127.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+				</g>
+				<g transform="translate(209.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 229.0,0.0 229.0,20.0 0.0,20.0 0.0,103.0 229.0,103.0 229.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1245.0,574.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="216.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="109.0" y="14.190625">ethnicity</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="74.0" width="216.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">value</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+				</g>
+				<g transform="translate(114.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(196.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 216.0,0.0 216.0,20.0 0.0,20.0 0.0,94.0 216.0,94.0 216.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1226.0,41.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="226.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="114.0" y="14.190625">dimension</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="269.0" width="226.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">guid</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">time_period</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">summary</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">chart</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">table</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">chart_source_data</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">table_source</text>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">chart_2_source_da</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">chart_builder_versi</text>
+					</g>
+					<g transform="translate(0.0,154.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">table_2_source_dat</text>
+					</g>
+					<g transform="translate(0.0,168.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">table_builder_versi</text>
+					</g>
+					<g transform="translate(0.0,182.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">chart_id</text>
+					</g>
+					<g transform="translate(0.0,196.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">table_id</text>
+					</g>
+					<g transform="translate(0.0,210.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_version_i</text>
+					</g>
+					<g transform="translate(0.0,224.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">created_at</text>
+					</g>
+					<g transform="translate(0.0,238.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">updated_at</text>
+					</g>
+				</g>
+				<g transform="translate(124.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">json</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">json</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">json</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">json</text>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">json</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,154.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">json</text>
+					</g>
+					<g transform="translate(0.0,168.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,182.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,196.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,210.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,224.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,238.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+				</g>
+				<g transform="translate(206.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,154.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,168.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,182.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,196.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,210.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,224.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,238.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 226.0,0.0 226.0,20.0 0.0,20.0 0.0,289.0 226.0,289.0 226.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(455.0,551.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="164.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="83.0" y="14.190625">frequency_of_release</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="67.0" width="164.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">description</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+				</g>
+				<g transform="translate(116.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(144.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 164.0,0.0 164.0,20.0 0.0,20.0 0.0,87.0 164.0,87.0 164.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(930.0,52.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="234.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="118.0" y="14.190625">lowest_level_of_geography</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="98.0" width="234.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">name</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">description</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+				</g>
+				<g transform="translate(132.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(214.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 234.0,0.0 234.0,20.0 0.0,20.0 0.0,118.0 234.0,118.0 234.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(188.0,548.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="255.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="128.5" y="14.190625">organisation</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="83.0" width="255.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">name</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">other_names</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">abbreviations</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">organisation_ty</text>
+					</g>
+				</g>
+				<g transform="translate(106.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">type_of_organisation</text>
+					</g>
+				</g>
+				<g transform="translate(235.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 255.0,0.0 255.0,20.0 0.0,20.0 0.0,103.0 255.0,103.0 255.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1522.0,570.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="228.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="115.0" y="14.190625">parent_ethnicity_in_classification</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="76.0" width="228.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">ethnicity_id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">classification_id</text>
+					</g>
+				</g>
+				<g transform="translate(176.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(196.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N FK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 228.0,0.0 228.0,20.0 0.0,20.0 0.0,96.0 228.0,96.0 228.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1231.0,778.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="240.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="121.0" y="14.190625">redirect</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="96.0" width="240.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">from_uri</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">to_uri</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">created_at</text>
+					</g>
+				</g>
+				<g transform="translate(138.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+				</g>
+				<g transform="translate(220.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 240.0,0.0 240.0,20.0 0.0,20.0 0.0,116.0 240.0,116.0 240.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(41.0,551.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="136.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="69.0" y="14.190625">type_of_statistic</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="68.0" width="136.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">internal</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">external</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+				</g>
+				<g transform="translate(88.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(116.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 136.0,0.0 136.0,20.0 0.0,20.0 0.0,88.0 136.0,88.0 136.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(665.0,48.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="245.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="123.5" y="14.190625">upload</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="103.0" width="245.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">guid</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">file_name</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">description</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">size</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_version_id</text>
+					</g>
+				</g>
+				<g transform="translate(143.5,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(225.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 245.0,0.0 245.0,20.0 0.0,20.0 0.0,123.0 245.0,123.0 245.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(37.0,347.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="199.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="100.5" y="14.190625">user_measure</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="53.0" width="199.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">user_id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_id</text>
+					</g>
+				</g>
+				<g transform="translate(152.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int4</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+				</g>
+				<g transform="translate(180.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 199.0,0.0 199.0,20.0 0.0,20.0 0.0,73.0 199.0,73.0 199.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(355.0,348.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="215.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="108.5" y="14.190625">users</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="110.0" width="215.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">email</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">password</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">active</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">confirmed_</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">capabilitie</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">user_type</text>
+					</g>
+				</g>
+				<g transform="translate(76.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">bool</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">type_of_user_types</text>
+					</g>
+				</g>
+				<g transform="translate(195.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 215.0,0.0 215.0,20.0 0.0,20.0 0.0,130.0 215.0,130.0 215.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(43.0,680.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="543.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="272.5" y="14.190625">data_source</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#FFFFFF" height="180.0" width="543.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">type_of_data</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">type_of_statistic_id</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">publisher_id</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">source_url</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">publication_date</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">note_on_corrections_or_updates</text>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">frequency_of_release_id</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">frequency_other</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">purpose</text>
+					</g>
+				</g>
+				<g transform="translate(393.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">type_of_data_types[]</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+				</g>
+				<g transform="translate(523.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 543.0,0.0 543.0,20.0 0.0,20.0 0.0,200.0 543.0,200.0 543.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(305.0,183.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="217.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="109.5" y="14.190625">measure</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="72.0" width="217.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">slug</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">reference</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+				</g>
+				<g transform="translate(123.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(64)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(32)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(197.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 217.0,0.0 217.0,20.0 0.0,20.0 0.0,92.0 217.0,92.0 217.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(706.0,256.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="441.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="221.5" y="14.190625">measure_version</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="463.0" width="441.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">description</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">status</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">published_at</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">published</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">estimation</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">ethnicity_definition_summary</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">further_technical_information</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_summary</text>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">methodology</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">need_to_know</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">qmi_url</text>
+					</g>
+					<g transform="translate(0.0,154.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">related_publications</text>
+					</g>
+					<g transform="translate(0.0,168.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">summary</text>
+					</g>
+					<g transform="translate(0.0,182.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">time_covered</text>
+					</g>
+					<g transform="translate(0.0,196.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,210.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">version</text>
+					</g>
+					<g transform="translate(0.0,224.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">created_at</text>
+					</g>
+					<g transform="translate(0.0,238.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">updated_at</text>
+					</g>
+					<g transform="translate(0.0,252.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">last_updated_by</text>
+					</g>
+					<g transform="translate(0.0,266.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">published_by</text>
+					</g>
+					<g transform="translate(0.0,280.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">unpublished_by</text>
+					</g>
+					<g transform="translate(0.0,294.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">db_version_id</text>
+					</g>
+					<g transform="translate(0.0,308.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">area_covered</text>
+					</g>
+					<g transform="translate(0.0,322.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">lowest_level_of_geography_id</text>
+					</g>
+					<g transform="translate(0.0,336.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">review_token</text>
+					</g>
+					<g transform="translate(0.0,350.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">latest</text>
+					</g>
+					<g transform="translate(0.0,364.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">suppression_and_disclosure</text>
+					</g>
+					<g transform="translate(0.0,378.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,392.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">unpublished_at</text>
+					</g>
+					<g transform="translate(0.0,406.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_id</text>
+					</g>
+					<g transform="translate(0.0,420.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">update_corrects_data_mistake</text>
+					</g>
+				</g>
+				<g transform="translate(269.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_status_enum</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,154.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,168.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,182.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,196.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,210.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar</text>
+					</g>
+					<g transform="translate(0.0,224.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,238.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,252.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar</text>
+					</g>
+					<g transform="translate(0.0,266.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,280.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,294.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,308.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">uk_country_types[]</text>
+					</g>
+					<g transform="translate(0.0,322.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,336.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(255)</text>
+					</g>
+					<g transform="translate(0.0,350.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,364.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,378.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,392.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">timestamp</text>
+					</g>
+					<g transform="translate(0.0,406.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,420.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+				</g>
+				<g transform="translate(409.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,70.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,84.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,98.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,112.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,126.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,140.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,154.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,168.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,182.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,196.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,210.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,224.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,238.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,252.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,266.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N FK</text>
+					</g>
+					<g transform="translate(0.0,280.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N FK</text>
+					</g>
+					<g transform="translate(0.0,294.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,308.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,322.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N FK</text>
+					</g>
+					<g transform="translate(0.0,336.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,350.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,364.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,378.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,392.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+					<g transform="translate(0.0,406.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+					<g transform="translate(0.0,420.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">N</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 441.0,0.0 441.0,20.0 0.0,20.0 0.0,483.0 441.0,483.0 441.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(302.0,39.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="218.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="110.0" y="14.190625">topic</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="82.0" width="218.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">slug</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">description</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">additional_descript</text>
+					</g>
+				</g>
+				<g transform="translate(124.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(64)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(64)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">text</text>
+					</g>
+				</g>
+				<g transform="translate(198.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 218.0,0.0 218.0,20.0 0.0,20.0 0.0,102.0 218.0,102.0 218.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(45.0,38.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="178.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="90.0" y="14.190625">subtopic</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="84.0" width="178.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">slug</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">title</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">position</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">topic_id</text>
+					</g>
+				</g>
+				<g transform="translate(84.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(64)</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">varchar(64)</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(158.75,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 178.0,0.0 178.0,20.0 0.0,20.0 0.0,104.0 178.0,104.0 178.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1541.0,36.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="221.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="111.5" y="14.190625">dimension_table</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="125.0" width="221.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">includes_all</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">includes_parents</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">includes_unknown</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">classification_id</text>
+					</g>
+				</g>
+				<g transform="translate(131.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(183.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK FK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 221.0,0.0 221.0,20.0 0.0,20.0 0.0,145.0 221.0,145.0 221.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(1499.0,202.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="223.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="112.5" y="14.190625">dimension_chart</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="125.0" width="223.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">includes_all</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">includes_parents</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">includes_unknown</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">classification_id</text>
+					</g>
+				</g>
+				<g transform="translate(133.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">boolean</text>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(185.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">PK FK</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,28.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,42.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,56.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">FK</text>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 223.0,0.0 223.0,20.0 0.0,20.0 0.0,145.0 223.0,145.0 223.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(44.0,189.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="179.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="90.5" y="14.190625">subtopic_measure</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="42.0" width="179.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">subtopic_id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_id</text>
+					</g>
+				</g>
+				<g transform="translate(155.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(175.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 179.0,0.0 179.0,20.0 0.0,20.0 0.0,62.0 179.0,62.0 179.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+		<g class="table" transform="translate(706.0,822.0)">
+			<g transform="translate(0.0,0.0)">
+				<rect fill="#f0f0f0" height="20.0" width="440.0"/>
+			</g>
+			<g transform="translate(0.0,0.0)">
+				<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="700" text-anchor="middle" x="221.0" y="14.190625">data_source_in_measure_version</text>
+			</g>
+			<g transform="translate(0.0,20.0)">
+				<rect fill="#ffffff" height="42.0" width="440.0"/>
+				<g transform="translate(4.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">measure_version_id</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">data_source_id</text>
+					</g>
+				</g>
+				<g transform="translate(416.25,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875">int</text>
+					</g>
+				</g>
+				<g transform="translate(436.0,3.0)">
+					<g transform="translate(0.0,0.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+					<g transform="translate(0.0,14.0)">
+						<text fill="black" font-family="arial, sans-serif" font-size="12" font-weight="400" x="1.0" y="11.138671875"/>
+					</g>
+				</g>
+			</g>
+			<polyline fill="none" points="0.0,20.0 0.0,0.0 440.0,0.0 440.0,20.0 0.0,20.0 0.0,62.0 440.0,62.0 440.0,20.0" stroke="#000000" stroke-linejoin="miter"/>
+		</g>
+	</g>
+</svg>
