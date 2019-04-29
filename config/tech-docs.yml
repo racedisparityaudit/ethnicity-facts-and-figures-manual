@@ -34,5 +34,8 @@ max_toc_heading_level: 6
 # Prevent robots from indexing (e.g. whilst in development)
 prevent_indexing: true
 
+# Show red banner if page is past expiry date
+show_expiry: true
+
 show_contribution_banner: true
 github_repo: racedisparityaudit/ethnicity-facts-and-figures-tech-docs
