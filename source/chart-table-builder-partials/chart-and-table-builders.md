@@ -33,8 +33,8 @@ Chartbuilder has the handleNewData(success) function at its heart
   from that classification.
 - When changes are made to any setting chartbuilder builds a chart object and renders in the chart area using the 
   standard values
-- Save posts an AJAX call to the cms chartbuilder endpoint with a chart object and the current builder settings, both as
-  lumps of json. These are stored as json objects in the database.
+- Save posts an AJAX call to the Publisher's chartbuilder endpoint with a chart object and the current builder settings,
+  both as lumps of json. These are stored as json objects in the database.
 - If the builder is reopened it will fill the data text box from the settings. It then calls `handleNewData(success)`
   which builds classifications. At the end of the regular success function it uses the rest of the settings object to 
   set up the existing chart.
