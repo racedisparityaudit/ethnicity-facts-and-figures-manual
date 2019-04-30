@@ -179,7 +179,7 @@ With these set, run the following management tasks:
 scripts/run_tests.sh
 ```
 
-### Run the CMS app
+### Run the Publisher app
 
 To run the application server:
 
@@ -187,7 +187,7 @@ To run the application server:
 scripts/run.sh
 ```
 
-By default the CMS will be served at [http://localhost:5000](http://localhost:5000)
+By default the Publisher will be served at [http://localhost:5000](http://localhost:5000)
 
 To run the Gulp build process for static assets (CSS and javascript) whenever they are changed:
 

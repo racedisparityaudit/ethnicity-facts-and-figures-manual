@@ -11,8 +11,8 @@ The static site build process can be run manually via the following script:
 ./manage.py force_build_static_site
 ```
 
-In order to initiate builds automatically in response to user actions in the CMS (eg publishing a new page), a `build`
-table acts as a basic job queue. New rows are added to this table whenever a build is requested.
+In order to initiate builds automatically in response to user actions in the Publisher (eg publishing a new page), a 
+`build` table acts as a basic job queue. New rows are added to this table whenever a build is requested.
 
 To actually run these requested builds, the following script needs to be run at regular intervals:
 
