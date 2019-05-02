@@ -1,16 +1,11 @@
----
-title: Charts and tables
-weight: 55
----
+## Charts and tables
 
-# Charts and tables
-
-## Chartbuilder and Tablebuilder
+### Chartbuilder and Tablebuilder
 
 Chartbuilder and Tablebuilder function in roughly the same way. Chartbuilder will be detailed here and anything
 particular to Tablebuilder should be minor.
 
-### Charts in the Publisher
+#### Charts in the Publisher
 
 Charts in the Ethnicity Facts and Figures ecosystem work on three files:
 
@@ -24,11 +19,7 @@ On **Save** the chartbuilder builds a rd-chart object which it sends to be store
 rd-graph. It also sends a json dump of all the current builder settings so it can recall them next time this chart is
 opened up.
 
-#### Chartbuilder
-
 On the back-end it is supported by EthnicityClassificationFinder.
-
-#### How it works
 
 Chartbuilder has the handleNewData(success) function at its heart
 
@@ -45,4 +36,3 @@ Chartbuilder has the handleNewData(success) function at its heart
 - If the builder is reopened it will fill the data text box from the settings and call `handleNewData(success)`,
   which builds classifications
 - At the end of the regular success function it uses the rest of the settings object to set up the existing chart
-

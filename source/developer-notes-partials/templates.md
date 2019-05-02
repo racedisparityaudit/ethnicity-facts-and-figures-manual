@@ -1,9 +1,4 @@
----
-title: Template structure
-weight: 70
----
-
-# Template structure
+## Template structure
 
 Our site templates are all derived from a single base template, `base.html`, at the root of the templates directory.
 The base template declares the interface for all sub-templates and exposes a number of blocks that can be overriden,

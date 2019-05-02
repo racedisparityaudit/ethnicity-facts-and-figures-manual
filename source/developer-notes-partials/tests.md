@@ -1,18 +1,12 @@
----
-title: Tests
-weight: 30
----
-
-# Tests
-
-## Our test suites
+## Tests
+### Our test suites
 
 Our unit tests are found in `tests/application/` and mirror the structure of the top-level `application/` module.
 Our end-to-end tests are more free-form and found under `tests/functional/`.
 
 We also have Javascript tests in the `test` folder.
 
-## How our Python tests work
+### How our Python tests work
 
 We make liberal use of [pytest fixtures](https://docs.pytest.org/en/latest/fixture.html) to minimise the amount of
 boilerplate setup code we need to write for each test. These are found in `conftest.py` files.
@@ -28,7 +22,7 @@ Some of our fixtures are applied automatically to all tests. Important examples 
   requests from reaching out to the Internet
   [see `conftest:requests_mocker`]
 
-## Factory Boy
+### Factory Boy
 We use [Factory Boy](https://factoryboy.readthedocs.io/en/latest/introduction.html) to generate realistic model
 instances to test against. This replaces, in most places, the use of [pytest fixtures](https://docs.pytest.org/en/latest/fixture.html),
 and going forward should be the preferred way of generating test data. Using the existing factories should have a
