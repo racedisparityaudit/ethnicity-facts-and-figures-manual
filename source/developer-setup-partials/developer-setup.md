@@ -1,33 +1,32 @@
-## Developer setup
-
-### Prerequisites
-
-- Python 3 (version pinned in `runtime.txt`)
+## Prerequisites
+### Required
+- Python 3 (version pinned in [`runtime.txt`](https://github.com/racedisparityaudit/ethnicity-facts-and-figures-publisher/blob/master/runtime.txt))
 - Postgres (version 9.6)
-- Node.js, NPM and Gulp (versions pinned in `package.json`)
+- Node.js, NPM and Gulp (versions pinned in [`package.json`](https://github.com/racedisparityaudit/ethnicity-facts-and-figures-publisher/blob/master/package.json))
 - ChromeDriver
 
-### Bootstrap your local dev environment
+###Optional: Using `virtualenvwrapper`
 
-After checking the repository out, make a virtualenv and activate it. We recommend using
-`virtualenvwrapper`, installed to the system Python3, to simplify development.
+Python virtual environments can be managed using `virtualenvwrapper`, installed to the system Python3.
+It can be set up following these steps:
 
 ```bash
 pip install virtualenvwrapper
 ```
 
-Add the below snippet to your .profile/.bash_profile/.zshrc (depending on what shell you use), where
-`path_to_virtualenvwrapper.sh` is the absolute path to the system script (this can be found with
+Add the below snippet to your `.profile`, `.bash_profile` or `.zshrc` (depending on what shell you use), where
+`[path to virtualenvwrapper.sh]` is the absolute path to the system script (this can be found with
 `which virtualenvwrapper.sh` and will be something like `/usr/local/bin/virtualenvwrapper.sh` or
-`/Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh`). Source your profile
-again, either manually (`source <file>`) or by opening a new shell.
+`/Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh`).
 
 ```bash
 export WORKON_HOME=$HOME/.virtualenvs
-source {path_to_virtualenvwrapper.sh}
+source [path to virtualenvwrapper.sh]
 ```
 
-You can now create the virtualenv and activate it. Note the flag -p python3 is only relevant if
+Source your profile again, either manually (`source [file]`) or by opening a new shell.
+
+You can now create the virtualenv and activate it. Note the flag `-p python3` is only relevant if
 python3 is not the default on your system.
 
 ```bash
@@ -35,7 +34,11 @@ mkvirtualenv -p python3 rd-cms
 workon rd-cms
 ```
 
-Install the Python server requirements:
+## Bootstrap your local dev environment
+
+After checking the repository out, make a virtualenv and activate it.
+
+Install the Python requirements:
 
 ```bash
 pip install -r requirements-test.txt
@@ -60,7 +63,7 @@ pre-commit install --install-hooks
 ```
 
 
-### Set required environment variables
+## Set required environment variables
 
 We use python-dotenv to manage our app's configuration and secrets. Add a file called .env in the
 root of the project containing the values below. This file should not be committed and is in
@@ -91,8 +94,8 @@ PUSH_SITE=False
 # These GITHUB_* variables only need to be set if PUSH_SITE is True
 # (so you probably don't need them)
 GITHUB_ACCESS_TOKEN=[generate one on Github]
-GITHUB_URL=github.com/<your_github_username>
-HTML_CONTENT_REPO=<name_of_the_repository_to_push_to>
+GITHUB_URL=github.com/[your_github_username]
+HTML_CONTENT_REPO=[name_of_the_repository_to_push_to]
 
 # DEPLOY_SITE determines whether static builds should be pushed to S3
 DEPLOY_SITE=False
@@ -119,12 +122,12 @@ MAILGUN_SMTP_PASSWORD=[ask someone who knows]
 PROD_DB_URL=[ask someone who knows]
 PROD_UPLOAD_BUCKET_NAME=[ask someone who knows]
 
-GOOGLE_ANALYTICS_ID=[identifier for Google Analytics]
+GOOGLE_ANALYTICS_ID=[Google Analytics identifier]
 ```
 
 **Remember**: do not commit sensitive data to the repo.
 
-### Create local dev and test dbs (using postgres commands)
+## Create local dev and test dbs (using postgres commands)
 
 
 ```bash
@@ -132,7 +135,7 @@ createdb rdcms
 createdb rdcms_test
 ```
 
-### Run initial db migrations (using flask-migrate)
+## Run initial db migrations (using flask-migrate)
 
 
 ```bash
@@ -147,13 +150,13 @@ If you add any models, you need to add them to the manage.py script then run the
 ```
 
 
-### Populate your local database
+## Populate your local database
 
 After creating and migrating the basic database structure, you are ready to populate it with the
 latest data from production. You will need to define `S3_UPLOAD_BUCKET_NAME`, `PROD_DB_URL` and
 `PROD_UPLOAD_BUCKET_NAME` in your `.env` file.
 
-`S3_UPLOAD_BUCKET_NAME` should be set to something like `rd-cms-dev-<name>-uploads` and created
+`S3_UPLOAD_BUCKET_NAME` should be set to something like `rd-cms-dev-[name]-uploads` and created
 manually in the S3 console at [https://s3.console.aws.amazon.com/s3/home?region=eu-west-2](https://s3.console.aws.amazon.com/s3/home?region=eu-west-2).
 
 `PROD_DB_URL` can be found with these steps:
@@ -172,14 +175,14 @@ With these set, run the following management tasks:
 ./manage.py refresh_materialized_views
 ```
 
-### Run the tests
+## Run the tests
 
 
 ```bash
 scripts/run_tests.sh
 ```
 
-### Run the Publisher app
+## Run the Publisher app
 
 To run the application server:
 
@@ -195,7 +198,7 @@ To run the Gulp build process for static assets (CSS and javascript) whenever th
 gulp watch
 ```
 
-### Set up local user accounts
+## Set up local user accounts
 
 This application uses Flask Security for login, and has a basic User model but does not use
 the Role model from that plugin.
