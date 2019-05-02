@@ -5,4 +5,239 @@ weight: 15
 
 # Developer setup
 
-<%= partial 'developer-setup-partials/developer-setup' %>
+## Prerequisites
+### Required
+- Python 3 (version pinned in [`runtime.txt`](https://github.com/racedisparityaudit/ethnicity-facts-and-figures-publisher/blob/master/runtime.txt))
+- Postgres (version 9.6)
+- Node.js, NPM and Gulp (versions pinned in [`package.json`](https://github.com/racedisparityaudit/ethnicity-facts-and-figures-publisher/blob/master/package.json))
+- ChromeDriver
+
+###Optional: Using `virtualenvwrapper`
+
+Python virtual environments can be managed using `virtualenvwrapper`, installed to the system Python3.
+It can be set up following these steps:
+
+```bash
+pip install virtualenvwrapper
+```
+
+Add the below snippet to your `.profile`, `.bash_profile` or `.zshrc` (depending on what shell you use), where
+`[path to virtualenvwrapper.sh]` is the absolute path to the system script (this can be found with
+`which virtualenvwrapper.sh` and will be something like `/usr/local/bin/virtualenvwrapper.sh` or
+`/Library/Frameworks/Python.framework/Versions/3.6/bin/virtualenvwrapper.sh`).
+
+```bash
+export WORKON_HOME=$HOME/.virtualenvs
+source [path to virtualenvwrapper.sh]
+```
+
+Source your profile again, either manually (`source [file]`) or by opening a new shell.
+
+You can now create the virtualenv and activate it. Note the flag `-p python3` is only relevant if
+python3 is not the default on your system.
+
+```bash
+mkvirtualenv -p python3 rd-cms
+workon rd-cms
+```
+
+## Bootstrap your local dev environment
+
+After checking the repository out, make a virtualenv and activate it.
+
+Install the Python requirements:
+
+```bash
+pip install -r requirements-test.txt
+```
+
+Install the Node.js requirements (for front end assets):
+
+```bash
+npm install
+```
+
+Then generate the assets using:
+
+```bash
+gulp make
+```
+
+Then setup [pre-commit hooks](https://pre-commit.com/) to ensure a basic level of code quality:
+
+```bash
+pre-commit install --install-hooks
+```
+
+
+## Set required environment variables
+
+We use python-dotenv to manage our app's configuration and secrets. Add a file called .env in the
+root of the project containing the values below. This file should not be committed and is in
+.gitignore. Only add values for local development and test. For our deployments we are using Heroku
+and therefore any variables needed for the application need to be set manually on Heroku.
+
+```bash
+ACCOUNT_WHITELIST="['your email address if it is not a gov.uk one']"
+FLASK_ENV=development
+ENVIRONMENT=DEVELOPMENT
+DATABASE_URL=postgresql://postgres@localhost:5432/rdcms
+TEST_DATABASE_URL=postgresql://postgres@localhost:5432/rdcms_test
+PGSSLMODE=allow
+
+# SECRET_KEY is used by Flask for creating tokens for password reset and review pages
+SECRET_KEY=[whatever you like]
+LOGIN_DISABLED=False
+
+# SURVEY_ENABLED toggles the visibility of the survey link in the header
+SURVEY_ENABLED=False
+
+BUILD_SITE=True
+STATIC_BUILD_DIR=[some directory on your machine where static site builds will go]
+
+# PUSH_SITE determines whether static builds should be pushed to a Github repository
+# (you probably don't need to do this)
+PUSH_SITE=False
+# These GITHUB_* variables only need to be set if PUSH_SITE is True
+# (so you probably don't need them)
+GITHUB_ACCESS_TOKEN=[generate one on Github]
+GITHUB_URL=github.com/[your_github_username]
+HTML_CONTENT_REPO=[name_of_the_repository_to_push_to]
+
+# DEPLOY_SITE determines whether static builds should be pushed to S3
+DEPLOY_SITE=False
+# The S3_* and AWS_* variables should only need to be set if DEPLOY_SITE is True
+FILE_SERVICE=S3
+S3_UPLOAD_BUCKET_NAME=[make one on s3 and put name here]
+S3_STATIC_SITE_BUCKET=[make one on s3 and put name here]
+S3_STATIC_SITE_ERROR_PAGES_BUCKET=[make one on s3 and put name here]
+S3_REGION=eu-west-2
+AWS_ACCESS_KEY_ID=[generate one in AWS]
+AWS_SECRET_ACCESS_KEY=[generate one in AWS]
+
+# You only need to set these if you want to test attachment scanning locally
+ATTACHMENT_SCANNER_API_URL=https://beta.attachmentscanner.com/requests
+ATTACHMENT_SCANNER_API_TOKEN=[ask someone who knows]
+
+# You only need to set these if you want your local app to send emails
+MAILGUN_SMTP_SERVER=smtp.mailgun.org
+MAILGUN_SMTP_PORT=465
+MAILGUN_SMTP_LOGIN=postmaster@devmail.ethnicity-facts-figures.service.gov.uk
+MAILGUN_SMTP_PASSWORD=[ask someone who knows]
+
+# You only need to set these if you want to run the data migration job from production
+PROD_DB_URL=[ask someone who knows]
+PROD_UPLOAD_BUCKET_NAME=[ask someone who knows]
+
+GOOGLE_ANALYTICS_ID=[Google Analytics identifier]
+```
+
+**Remember**: do not commit sensitive data to the repo.
+
+## Create local dev and test dbs (using postgres commands)
+
+
+```bash
+createdb rdcms
+createdb rdcms_test
+```
+
+## Run initial db migrations (using flask-migrate)
+
+
+```bash
+./manage.py db upgrade
+```
+
+If you add any models, you need to add them to the manage.py script then run the following steps:
+
+```bash
+./manage.py db migrate # generated the migration scripts
+./manage.py db upgrade # runs the migration scripts
+```
+
+
+## Populate your local database
+
+After creating and migrating the basic database structure, you are ready to populate it with the
+latest data from production. You will need to define `S3_UPLOAD_BUCKET_NAME`, `PROD_DB_URL` and
+`PROD_UPLOAD_BUCKET_NAME` in your `.env` file.
+
+`S3_UPLOAD_BUCKET_NAME` should be set to something like `rd-cms-dev-[name]-uploads` and created
+manually in the S3 console at [https://s3.console.aws.amazon.com/s3/home?region=eu-west-2](https://s3.console.aws.amazon.com/s3/home?region=eu-west-2).
+
+`PROD_DB_URL` can be found with these steps:
+1) Visit [https://dashboard.heroku.com/apps/rd-cms/resources](https://dashboard.heroku.com/apps/rd-cms/resources)
+2) Click on one of the Postgres resources.
+3) Go to the 'Credentials' tab.
+4) Expand the default credential set.
+5) Click 'Copy' beneath the URI.
+
+`PROD_UPLOAD_BUCKET_NAME` can be found at [https://s3.console.aws.amazon.com/s3/home?region=eu-west-2](https://s3.console.aws.amazon.com/s3/home?region=eu-west-2)
+
+With these set, run the following management tasks:
+
+```bash
+./manage.py pull_prod_data
+./manage.py refresh_materialized_views
+```
+
+## Run the tests
+
+
+```bash
+scripts/run_tests.sh
+```
+
+## Run the Publisher app
+
+To run the application server:
+
+```bash
+scripts/run.sh
+```
+
+By default the Publisher will be served at [http://localhost:5000](http://localhost:5000)
+
+To run the Gulp build process for static assets (CSS and javascript) whenever they are changed:
+
+```bash
+gulp watch
+```
+
+## Set up local user accounts
+
+This application uses Flask Security for login, and has a basic User model but does not use
+the Role model from that plugin.
+
+To create your local user account
+
+```bash
+./manage.py create_local_user_account --email someemail@somedept.gov.uk --user-type RDU_USER
+```
+
+This will print out a url for you to vist to finish creating the account.
+
+The command can be used to create both DEV_USER and DEPT_USER types. The latter is useful for
+testing locally.
+
+e.g.
+
+```bash
+./manage.py create_local_user_account --email someemail@somedept.gov.uk --user-type DEPT_USER
+```
+
+Then visit the url that is output to complete the process.
+
+
+In the application account creation is via the users page that is under /admin.
+
+Accounts can only be made for gov.uk email addresses. To setup an account for a non gov.uk email,
+you need to whitelist the specific email. To do that add an environment variable:
+
+```bash
+ACCOUNT_WHITELIST="['someperson@gmail.com']"
+```
+
+Note the quoting of the list and the list item above.
+
