@@ -1,16 +1,15 @@
-## EthnicityClassificationFinder
+## Ethnicity standards problem
 
-### Ethnicity standards problem
-
-Departments use a list of over 250 different ethnicity labels in their spreadsheets.
-We need to turn the mixture of ethnicity values we get from departments into a standard list.
-The list we map to has 39 values that are a variety on the ONS 2011 census values.
-Also we also need to assign structure to our data: parents and order.
+Over 250 different ethnicity descriptors are used across the spreadsheets we get from departments.
+In order to make sense of this data we need to reduce the mixture of ethnicity values into a smaller set of values
+that we use across our site.
+The list we map to has 39 values that are variations on the ONS 2011 census values.
+We also need to assign structure to our data: parents and ordering.
 
 There are two aspects to our problem...
 
-**Non-standard values.** The base problem arrives because departments code a standard ethnicity of "White British" 
-in different ways
+**Non-standard values.** The base problem arises because departments code the same ethnicity in different ways. 
+For example, "White British" might be collected and reported as:
 
 - White British
 - White England/NI/Scotland/Wales
