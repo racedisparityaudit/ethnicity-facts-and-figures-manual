@@ -166,21 +166,28 @@ latest data from production. You will need to define `S3_UPLOAD_BUCKET_NAME`, `P
 `S3_UPLOAD_BUCKET_NAME` should be set to something like `rd-cms-dev-[name]-uploads` and created
 manually in the S3 console at [https://s3.console.aws.amazon.com/s3/home?region=eu-west-2](https://s3.console.aws.amazon.com/s3/home?region=eu-west-2).
 
-`PROD_DB_URL` can be found with these steps:
-1) Visit [https://dashboard.heroku.com/apps/rd-cms/resources](https://dashboard.heroku.com/apps/rd-cms/resources)
-2) Click on one of the Postgres resources.
-3) Go to the 'Credentials' tab.
-4) Expand the default credential set.
-5) Click 'Copy' beneath the URI.
+For `PROD_DB_URL` you should point to the Staging database, which can be found with these steps:
+
+1) Visit [https://dashboard.heroku.com/apps/rd-cms-staging/settings](https://dashboard.heroku.com/apps/rd-cms-staging/settings)
+2) Click on "Reveal config vars"
+3) Copy the value from the `DATABASE_URL` variable
 
 `PROD_UPLOAD_BUCKET_NAME` can be found at [https://s3.console.aws.amazon.com/s3/home?region=eu-west-2](https://s3.console.aws.amazon.com/s3/home?region=eu-west-2)
 
 With these set, run the following management tasks:
 
 ```bash
-./manage.py pull_prod_data
+./manage.py pull_prod_data --default_user_password=[some password for your local users]
 ./manage.py refresh_materialized_views
 ```
+
+The `pull_prod_data` command will create a set of users - one of each of the different types we have - all with the
+password specified in the `--default_user_password` command line arg.  These are:
+
+* admin@eff.gov.uk
+* dev@eff.gov.uk
+* dept@eff.gov.uk
+* rdu@eff.gov.uk
 
 ## Run the tests
 
@@ -205,7 +212,7 @@ To run the Gulp build process for static assets (CSS and javascript) whenever th
 gulp watch
 ```
 
-## Set up local user accounts
+## Set up additional local user accounts
 
 This application uses Flask Security for login, and has a basic User model but does not use
 the Role model from that plugin.
