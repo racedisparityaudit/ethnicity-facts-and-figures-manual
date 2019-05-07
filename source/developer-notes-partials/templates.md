@@ -1,3 +1,5 @@
+## Template structure
+
 Our site templates are all derived from a single base template, `base.html`, at the root of the templates directory.
 The base template declares the interface for all sub-templates and exposes a number of blocks that can be overriden,
 as needed, to customise content and structure. The exposed interface consists of the following blocks (closely
@@ -57,6 +59,7 @@ derived from the [GOV.UK Design System](https://design-system.service.gov.uk/sty
 * footer
     * Wraps the default footer of the page, should it need to be overridden
 * bodyEnd
-    * A section just before the closing tag of the `<body>` element, most likely to include scripts for the page; 
-      by default this includes the main scripts for the site - such as `all.js` for the static site, and 
+    * A section just before the closing tag of the `<body>` element, most likely to include scripts for the page;
+      by default this includes the main scripts for the site - such as `all.js` for the static site, and
       `cms.js`/`charts.js` for the CMS
+
