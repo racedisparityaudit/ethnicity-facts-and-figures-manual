@@ -47,8 +47,8 @@ The Publisher app is hosted on Heroku and released through a three-stage pipelin
 
 The Publisher app allows users to create, update, edit and preview pages for the Ethnicity Facts and Figures site.
 For these changes to be reflected in the pages of the live site they need to be built and pushed to the production S3
-bucket. A build of the entire site is requested by Publisher whenever a page is marked as published (or, in rare cases,
-unpublished). The request for a build is stored in the `build` table in the database.
+bucket. A build of the entire site is requested by Publisher whenever a page is marked as published. The request for a
+build is stored in the `build` table in the database.
 
 The static build is run by a Heroku scheduled task which spins up a new instance of the Publisher application within the
 environment (which is not accessible on any URL) and runs the `build_static_site` management command. This command first
