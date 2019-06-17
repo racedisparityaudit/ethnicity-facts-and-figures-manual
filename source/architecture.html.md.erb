@@ -79,6 +79,18 @@ We keep the data in our Staging database up-to-date by running the `pull_prod_da
 from the production database into the staging database, removing all user email addresses and passwords and setting up
 some known user accounts that can be used for testing in Staging and on review apps.
 
+### Database backups
+Heroku's managed Postgres service (on non-free plans) provides seamless, real-time backup and restore for the last week
+or so. To provide additional backup capabilities, and resilience in the case of Heroku's backups failing or being
+unavailable, we also run a scheduled task once a week that exports the production database to S3, in the
+`ethnicity-facts-and-figures-db-backups` bucket. This bucket is in `eu-west-2` (London), which is intentionally not the
+same as Heroku's `europe` region, which runs on AWS in `eu-west-1` (Ireland). This provides an extra level of resilience
+by having our database backups split between two regions.
+
+The bucket is write-only and versioned, so that backups cannot be deleted. Backup objects (and versions) are deleted
+after approximately three years automatically by an AWS S3 lifecycle rule. Only the root AWS RDU account and the
+infrastructure role can read the backups bucket.
+
 ## Heroku add-on services
 ### Email
 We use Mailgun for sending emails from Publisher.  The only emails we send from the app are for users to confirm new
