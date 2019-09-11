@@ -78,7 +78,7 @@ root of the project containing the values below. This file should not be committ
 and therefore any variables needed for the application need to be set manually on Heroku.
 
 ```bash
-ACCOUNT_WHITELIST="['your email address if it is not a gov.uk one']"
+ACCOUNT_WHITELIST="{'your email address if it is not a gov.uk one' : 'type of user (DEV_USER|RDU_USER|DEPT_USER|ADMIN_USER)'}"
 FLASK_ENV=development
 ENVIRONMENT=DEVELOPMENT
 DATABASE_URL=postgresql://postgres@localhost:5432/rdcms
